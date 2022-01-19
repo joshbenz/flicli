@@ -1,0 +1,26 @@
+[package]
+name = "flicli"
+version = "0.1.0"
+edition = "2021"
+
+description = "Async high-Level ssh tool for interacting with CLI connections to network devices. Inspired by Netmiko and netdev"
+readme = "README.md"
+
+authors = ["Joshua Benz <joshua@planethull.com>"]
+homepage = "https://github.com/joshbenz/flicli"
+repository = "https://github.com/joshbenz/flicli.git"
+keywords = ["ssh", "asynchronous"]
+categories = ["network-programming", "api-bindings"]
+license = "MIT/Apache-2.0"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[badges]
+maintenance = { status = "experimental" }
+
+[dependencies]
+futures = "0.3"
+thrussh = "0.33"
+tokio = { version = "1.15.0", features = ["full"] }
+thrussh-keys = "0.21"
+thiserror = "1"
