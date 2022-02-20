@@ -24,3 +24,9 @@ thrussh = "0.33"
 tokio = { version = "1.15.0", features = ["full"] }
 thrussh-keys = "0.21"
 thiserror = "1"
+anyhow = "1"
+env_logger = "*"
+tracing = "0.1.29"
+tracing-subscriber = { version = "0.3.1", features = [ "env-filter" ] }
+color-eyre = "0.5.11"
+eyre = "0.6.5"

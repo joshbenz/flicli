@@ -1,0 +1,2 @@
+SSH-2.0-OpenSSH_8.8
+Invalid SSH identification string.
